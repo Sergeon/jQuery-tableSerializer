@@ -1,4 +1,9 @@
+tableSerializer
+=================================
 
+	A small jQuery plugin to serialize tables into an object. 
+	
+	
 ## Author
 
 Mauro Caffaratto
