@@ -55,13 +55,13 @@ This script needs jQuery to work.
 ```javascript
 //Create a table serializer:
 
-	tableSerializer = TableSerializer($("#cool-table") );
+tableSerializer = TableSerializer($("#cool-table") );
 	
-	//add a filter with a rule to manipulate data:
-	tableSerializer.addFilter('Race' , function($elem){ return $elem.find('span').html() });
+//add a filter with a rule to manipulate data:
+tableSerializer.addFilter('Race' , function($elem){ return $elem.find('span').html() });
 
-  //serialize :-)
-  var data = serializer.serialize();
+//serialize :-)
+var data = serializer.serialize();
 
 ```
 
