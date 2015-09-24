@@ -1,7 +1,7 @@
 tableSerializer
 =================================
 
-	A small jQuery plugin to serialize tables into an object. 
+	A small jQuery plugin to serialize html tables into an object. 
 	
 	
 ## Author
@@ -31,20 +31,20 @@ This script needs jQuery to work.
 	</thead>
 	<tbody>
 		<tr>
-			<th>Goku</th>
-			<th>100000</th>
-			<th><span class="race-field">Saiyan</span></th>
+			<td>Goku</td>
+			<td>100000</td>
+			<td><span class="race-field">Saiyan</span></td>
 		</tr>
-			<tr>
-				<th>Vegeta</th>
-				<th>100000</th>
-				<th><span class="race-field">Saiyan</span></th>
-			</tr>
-				<tr>
-					<th>Krilin</th>
-					<th>4000</th>
-					<th><span class="race-field">Human</span></th>
-				</tr>
+		<tr>
+			<td>Vegeta</td>
+			<td>100000</td>
+			<td><span class="race-field">Saiyan</span></td>
+		</tr>
+		<tr>
+			<td>Krilin</td>
+			<td>4000</td>
+			<td><span class="race-field">Human</span></td>
+		</tr>
 	</tbody>
 		
 </table>
